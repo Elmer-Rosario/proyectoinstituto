@@ -1,0 +1,1590 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Rajdhani', sans-serif;
+}
+body{
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #333;
+	overflow-x: hidden;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background: rgba(0,0,0,.9);
+	position: fixed;
+	z-index: 3;
+	display: flex;
+}
+#check , header label{
+	display: none;
+}
+header .logo1{
+	color: #fff;
+	width: 20%;
+	height: 100%;
+	border-right: 1px #fff dashed;
+}
+header h1{
+	font-family: 'Kodchasan', sans-serif;
+	text-align: center;
+	font-size: 55px;
+}
+header h1 span{
+	font-family: 'Kodchasan', sans-serif;
+	font-size: 55px;
+	color: #086747;
+}
+header p{
+	margin-top: -13px;
+	text-align: center;
+}
+header .logo2{
+	padding: 0;
+	margin: 0;
+	width: 80%;
+	height: 100%;
+}
+header .logo2 .menu1{
+	padding: 0 40px 0 0;
+	margin: 0;
+	width: 100%;
+	height: 50%;
+}
+header .logo2 .menu1 ul{
+	display: flex;
+	float: right;
+	height: 100%;
+}
+header .logo2 .menu1 ul li{
+	padding:  3px 0;
+	color: #fff;
+	margin: 0 0 0 10px;
+	list-style: none;
+}
+header .logo2 .menu1 ul li a{
+	color: #fff;
+	font-size: 35px;
+	text-decoration: none;
+}
+header .logo2 .menu1 ul li p{
+	margin: 5px 5px;
+	font-size: 20px;
+}
+header .logo2 .menu2{
+	padding: 0 40px 0 0;
+	border-top: 1px #fff dashed;
+	margin: 0;
+	width: 100%;
+	height: 50%;
+}
+header .logo2 .menu2 ul{
+	display: flex;
+	float: right;
+	height: 100%;
+}
+header .logo2 .menu2 ul li{
+	font-size: 15px;
+	margin: 15px 0 0 55px;
+	color: #fff;
+	list-style: none;
+}
+header .logo2 .menu2 ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+/*  comienza  slider de video e el fondo */
+.header{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+.content{
+	max-width: 50rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin: auto;
+	text-align: center;
+}
+.header-video{
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.header-video video{
+	min-width: 100vw;
+	min-height: 100%;
+}
+.header-overlay{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.4);
+	z-index: 1;
+}
+.header-content{
+	z-index: 2;
+}
+.header-content h1{
+	font-family: 'Lobster', cursive;
+	font-size: 70px;
+	margin-bottom: 0;
+}
+.header-content p{
+	font-size: 1.5rem;
+	display: block;
+	padding-bottom: 2rem;
+}
+.btn{
+	background: #b80f22;
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 1rem 3rem;
+	text-decoration: none;
+}
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*..............comieza segundo contenido
+                                     .................*/
+.index__contenido1{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+.index__contenido1 .index-cont1{
+	width: 50%;
+	height: 100%;
+}
+.index__contenido1 .index-cont1 img{
+	margin-top: 10vh;
+	width: 90%;
+	height: 80vh;
+	float: right;
+}
+.index__contenido1 .index-cont2{
+	width: 50%;
+	height: 100%;
+}
+.index__contenido1 .index-cont2 .index__cont2_1{
+	margin-top: 25%;
+	margin-left: -20%;
+	padding: 10%;
+	width: 100%;
+	height: 50%;
+	background: #fff;
+	border: #000 1px solid;
+	box-sizing: border-box;
+	box-shadow: 7px 6px 10px -1px rgba(0,0,0,0.75);
+}
+.index__contenido1 .index-cont2 .index__cont2_1 .index__cont2_p{
+	padding-bottom:  30px;
+	outline-width: 1.5em;
+}
+.index__contenido1 .index-cont2 .index__cont2_1 a{
+	padding: 10px 80px;
+	background: #b80f22;
+	color: #fff;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+/*..............comieza terce contenido
+                                     .................*/
+.index__contenido2{
+    width: 100%;
+   	height: 100vh;
+   	background: #1A1B1B;
+}
+.index__conteiner__img1{
+   	width: 100%;
+   	height: 30%;
+   	display: flex;
+}
+.index__conteiner__img1 .prop-premiun{
+	width: 100%;
+   	height: 30%;
+	position: absolute;
+	background: rgba(0,0,0,.7);
+}
+.index__conteiner__img1 .prop-premiun p{
+	font-family: 'Lobster', cursive;
+	padding: 5%;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+}
+
+.index__conteiner__img1 img{
+	width: 10%;
+	height: 100%;
+}
+
+/*
+.index__conteiner__img1 img:nth-child(1){
+   width: 10%;
+   height: 100%;
+} */
+ 
+.index__conteiner__img2{
+   	width: 100%;
+   	height: 70%;
+   	display: flex;
+}
+.index__conteiner__img2 .index__cont1{ width: 25%; height: 100%;}
+.index__conteiner__img2 .index__cont2{ width: 25%; height: 100%;}
+.index__conteiner__img2 .index__cont3{ width: 25%; height: 100%;}
+.index__conteiner__img2 .index__cont4{ width: 25%; height: 100%;}
+
+.index__conteiner__img2 .abc{
+	padding-top: 25%;
+	box-sizing: border-box;
+}
+.index_contimg{
+	width: 100%;
+	height: 50%;
+}
+.index_contimg img{
+	width: 100%;
+	height: 100%;
+}
+.index_conttext{
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	height: 50%;
+}
+.index__contenido3{
+	background-image: url(../img/slide1_2_.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+.index__contenido3 .index__mapa1{
+	width: 50%;
+	height: 100%;
+	
+}
+.index__contenido3 .index__mapa1 .locales{
+	box-sizing: border-box;
+	width: 38%;
+	height: 45%;
+}
+.index__contenido3 .index__mapa1 .locales:nth-child(1){
+	margin-bottom: 20px;
+}
+.index__contenido3 .index__mapa1 .locales  h2{
+	padding-top: 17%;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+.index__contenido3 .index__mapa1 .index_iframe{
+	padding: 13% 0% 13%  30%;
+	width: 200%;
+	height: 100%;
+	position: relative;
+	z-index: 2;	
+	background: rgba(0,0,0,.4);
+}
+.index__contenido3 .index__mapa2{
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+.index__contenido3 .index__mapa2 iframe:nth-child(1) {
+	margin-top: 13%;
+}
+.index__contenido3 .index__mapa2 iframe{
+	box-sizing: border-box;
+	width: 75%;
+	height: 35%;
+}
+
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*........................nosotros...............................................................*/
+.contenedor-slider {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  width: 400%;
+}
+.slider .slider__section {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+.slider .slider__section1{
+	background: url(../img/1.jpg);
+	background-size: cover;	
+}
+.slider .slider__section2{
+	background: url(../img/2.jpg);
+	background-size: cover;	
+}
+.slider .slider__section3{
+	background: url(../img/3.jpg);
+	background-size: cover;	
+}
+.slider .slider__section4{
+	background: url(../img/4.jpg);
+	background-size: cover;	
+}
+.slider .slider__section .origen{
+	margin-top: 23%;
+	margin-left: 10%;
+	width: 25%;
+	height: 20%;
+	color: #fff; 
+}
+.slider .slider__section  .origen p{
+	text-align: center;
+	font-family : "calibri";
+	font-size: 80px;
+}
+.slider .slider__section  .origentext{
+	margin-top: 15%;
+	margin-left: 15%;
+	width: 40%;
+	height: auto;
+	max-height: 350px;
+	background: #1A1B1B;
+	color: #fff; 
+	box-sizing: border-box;
+}
+.slider .slider__section  .origentext div{
+	text-align: center;
+	width: 90%;
+	height: 100%;
+	border-left: #fff 1px dashed;
+	margin-left: 10%;
+	padding: 10% 5% 5% 5%;
+	box-sizing: border-box;
+}
+.slider .slider__section  .origentext div p{
+	margin-bottom: 20px;
+	text-align: justify;
+	letter-spacing: 1.5px;
+}
+.slider .slider__section  .origentext div a{
+	text-align: center;
+	padding: 7px 100px;
+	text-decoration: none;
+	background: #b80f22;
+	color: #fff;
+}
+
+ .btn-prev, .btn-next {
+  
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  transform: translateY(-50%);
+  font-size: 80px;
+  text-align: center;
+  font-family: monospace;
+  cursor: pointer;
+}
+ .btn-prev {
+  left: 10px;
+}
+
+.btn-next {
+  right: 10px;
+}
+
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*..............................................................................
+																				carta
+																				*/
+.slider-carta{
+	background-image: url(../img/fondo-de-carta.jpg);
+	background-size: cover;
+	padding-top: 100px;
+	width: 100%;
+	height: 850px;
+}
+.slider-carta .entradas{
+	width: 100%;
+	height: 50px;
+}
+.entradas ul{
+	float: right;
+	width: 80%;
+	height: 100%;
+ 	padding: 0 ;
+	display: flex;
+	border-top: 1px #fff dashed;
+	border-bottom:  1px #fff dashed;
+}
+.border{
+	/*
+	border-left: 1px #fff dashed;
+	border-bottom:  1px #fff dashed;
+	*/
+}
+.entradas ul li{
+ 	text-align: center;
+ 	height: 100%;
+ 	width: 20%;
+ 	list-style: none;
+ 	border-left: 1px #fff dashed;
+}
+.entradas ul li a{
+	padding: 15px 0;
+	display: block;
+	width: 100%;
+	height: 50px;
+ 	text-decoration: none;
+ 	font-size: 15px;
+ 	color: #fff;
+}
+/* no entiendo esta clase active ya que no esta definido 
+en html*/
+.active{
+	z-index: 3;
+	height: 50px;
+}
+.secciones{
+	width: 100%;
+	height: 100%;
+}
+
+.secciones article{
+	margin: auto;
+	width: 90%;
+	height: 100%;
+	box-sizing: border-box;
+}
+.secciones article h1{
+	/*
+	margin-top: 7%; */
+	padding-top: 5vh;
+	margin-bottom: 90px;
+	height: 20vh;
+	font-size: 47px;
+	text-align: center;
+	color: #fff;
+}
+.secciones article div{
+	width: 22.75%;
+	float: left;
+	text-align: center;
+}
+.secciones article div img{
+	margin: -90px 0 0 0;
+	width: 180px;
+	height: 180px;
+	border-radius: 100px;
+	border: white 2px solid;
+}
+article .seccion1{ background: #1A1B1B; margin-right: 3%; }
+article .seccion2{ background: #1A1B1B; margin-right: 3%;}
+article .seccion3{ background: #1A1B1B; margin-right: 3%; } 
+article .seccion4{ background: #1A1B1B;}
+article div ul{
+	padding: 0;
+	width: 100%;
+}
+article div ul li{
+	padding-top: 15px;
+	width: 100%;
+	height: 40px;
+	list-style: none;
+	font-size: 14px;
+	color: #fff;
+	border-bottom:  1px #fff dotted ;
+}
+article div ul p{
+	margin-bottom: 15px;
+	padding-top: 15px;
+	font-size: 20px;
+	color: #fff;
+	border-bottom:  2px #fff solid ;
+}
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*........................galeria...............................................................*/
+.galeria__container{
+	background-image: url(../img/fondo-de-carta.jpg);
+	background-size: cover;
+	top: 100px;
+	position: relative;
+	width: 100%;
+	height: 1500px;
+	background-size: cover;
+}
+.galeria__container .video{
+	padding: 30px 30px;
+	width: 100%;
+	height: 500px;
+	display: flex;
+}
+.galeria__container .video .video01{
+	width: 50%;
+	height: 100%;
+}
+.galeria__container .video .video01 iframe{
+	width: 100%;
+	height: 100%;
+}
+.galeria__container .video .video02{
+	width: 50%;
+	height: 100%;
+	background: rgba(0,0,0,.8);
+}
+.galeria__container p{
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+.galeria__container .galeria{
+	width: 100%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.galeria__container .galeria li{
+	margin: 5px;
+}
+.galeria__container .galeria img{
+	width: 300px;
+	height: 250px;
+}
+/*  estilos modal imagenes........................................ */
+.galeria__container .modal{
+	display: none;
+}
+.galeria__container .modal:target{
+	display: block;
+	top: 0px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,.97);
+	z-index: 12;
+	
+}
+.galeria__container .modal .imagen{
+	width: 100%;
+	height: 100%;
+}
+.galeria__container .modal .imagen .imagen1{
+	width: 100%;
+	height: 10%;
+	display: flex;
+}
+.galeria__container .modal .imagen .imagen1 p{
+	padding-top: 1.5%;
+	width: 90%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+}
+.galeria__container .modal .imagen .imagen1 a{
+	padding-top: 1%;
+	width: 10%;
+	height: 100%;
+	font-size: 30px;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+.galeria__container .modal .imagen .imagen2{
+	width: 100%;
+	height: 90%;
+	
+	display: flex;
+	
+}
+.galeria__container .modal .imagen .imagen2 a:nth-child(1){
+	margin-top: 20%;
+	width: 15%;
+	height: 100%;
+	padding-left: 150px;
+	color: #fff;
+	font-size: 70px;
+	text-decoration: none;
+}
+.galeria__container .modal .imagen .imagen2 a:nth-child(2){
+	padding-top: 20px;
+	width: 70%;
+	height: 100%;
+	text-align: center;
+}
+.galeria__container .modal .imagen .imagen2 a:nth-child(3){
+	display: block;
+	margin-top: 20%;
+	width: 15%;
+	height: 100%;
+	color: #fff;
+	font-size: 70px;
+	text-decoration: none;
+}
+.galeria__container .modal .imagen .imagen2 img{
+	border: #FFF 1PX solid;
+	width: 80%;
+	height: 85%;
+}
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*........................eventos...............................................................*/
+.evento{
+ 	padding: 100px 0 0;
+ 	width: 100%;
+  	height: 1000px;
+  	display: flex;
+  	background: url(../img/galeria1.jpg);
+	background-size: cover;
+}
+.evento  .leftbox{
+ 	margin-top: 20%;
+ 	width: 50%;
+  	height: 100%;
+  	padding: 40px;
+ 	box-sizing: border-box;
+}
+.evento  .leftbox .content{
+	padding: 0px 20px ;
+	width: 600px;
+	height: 300px;
+	float: right;
+ 	background: rgba(0,0,0,.9);
+}
+.evento  .leftbox .content a{
+	color: #b80f22;
+}
+.evento  .leftbox .content .content__img{
+	text-align: center;
+ 	width: 100%;
+ 	height: 75px;
+}
+.evento  .leftbox .content .content__img img{
+	margin-top: -75px;
+ 	width: 250px;
+ 	height: 150px;
+ 	border: #fff 2px solid;
+ 	border-radius: 50px 0px 50px 0px;
+}
+.evento  .leftbox .content h2{
+	margin: 20px 0;
+	text-align: center;
+	color: #fff;
+}
+.evento  .leftbox .content p{
+	font-size: 18px;
+	color: #fff;
+}
+.evento .contenedor__events{
+	padding: 50px 20px;
+  	width: 50%;
+  	height: 100%;
+  	box-sizing: border-box;
+  	background: rgba(0,0,0,.8);
+}
+.evento .contenedor__events .events{
+	padding-bottom: 20px;
+	display: flex;
+	position: relative;
+	width: 600px;
+	height: 200px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.evento .contenedor__events  .events  .time{
+	
+	  position: relative;
+	  padding: 10px;
+	  background: #ED1A38;
+	  color: #fff;
+	  box-sizing: border-box;
+	  width: 30%;
+	  height: 100%;
+	  text-align: center;
+}
+.evento .contenedor__events  .events  .time h2{
+	text-align: center;
+	position: absolute;
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  top: 50%;
+  left: 40%;
+  transform: translate(-20% ,-80%);
+  color: #fff;
+  font-size: 70px;
+  line-height: 30px;
+}
+.evento .contenedor__events  .events  .time span{
+
+	font-size: 30px;
+}
+.evento .contenedor__events  .events  .details{
+	padding: 10px 20px;
+	width: 70%;
+	height: 100%;
+	background: #fff;
+	box-sizing: border-box;
+ 
+}
+.evento .contenedor__events  .events  .details h2{
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+.evento .contenedor__events  .events .details p{
+ text-align: justify;
+  margin: 5px 0 0;
+  padding: 0;
+  font-size: 16px;
+}
+.evento .contenedor__events  .events .details a{
+  width: 50%;
+  display: block; 
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 2.5px 15px;
+  border: 2px solid #2a2a2a;
+  color: #000;
+}
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*........................contactos...............................................................*/
+.container__contactos{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/slide1_2_.jpg) ;
+	background-size: cover;
+}
+.login-box {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  background: rgba(0,0,0,.85);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -40%);
+  box-sizing: border-box;
+}
+.login-box .loginbox1{
+  padding: 70px 30px;
+  width: 70%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.login-box .loginbox1 .form1{
+  padding-right:  10px;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.login-box .loginbox1 .form2{
+  padding-left: 10px;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.login-box .loginbox1 h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box .loginbox1 label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box .loginbox1 input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box .loginbox1 input[type="email"], .login-box .loginbox1 input[type="tel"], 
+.login-box .loginbox1 input[type="text"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.login-box .loginbox1 input[type="submit"] {
+  margin-left: 25%;
+  width: 50%;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box .loginbox1 input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-box .loginbox1 a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box .loginbox1 a:hover {
+  color: #fff;
+}
+.login-box .loginbox2{
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  background: #fff;
+  color: #000;
+}
+.login-box .loginbox2 h1{
+  margin: 15px 0;
+}
+.login-box .loginbox2 img{
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: #000;
+}
+.login-box .loginbox2 h3{
+  margin: 0;
+  padding: 0;
+}
+.login-box .loginbox2 p{
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*........................registrar...............................................................*/
+.registrar0{
+	text-align: center;
+}
+#registrar1{
+	margin-top: 20%;
+	font-size: 2em;
+}
+#registrar2{
+	text-align: center;
+}
+#registrar3{
+	  padding: 2px 60px;
+	  background: #b80f22;
+	  color: #fff;
+	  font-size: 24px;
+	  border-radius: 20px;
+}
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*........................footer...............................................................*/
+footer{
+	width: 100%;
+	height: 400px;
+	background: #1A1B1B;
+}
+footer .footer__container1{
+	display: flex;
+	height: 50%;
+	color: #A6A3A3;
+	border-bottom:  #A6A3A3 1px dashed;
+}
+footer .footer__cont__2{
+	padding: 20px 10px;
+	width: 33%;
+}
+footer .footer__cont__1 , .footer__cont__3{
+	padding: 20px 10px;
+	width: 34%;
+}
+.footer__container2{
+	text-align: center;
+	padding-top: 20px;
+}
+.footer__container2 p{
+	color: #A6A3A3;
+}
+footer .footer__container2 .footer__image1{
+	width: 70px;
+}
+.container__image{
+	padding: 0;
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+	z-index: 
+}
+footer .footer__container2 .container__image .container__imageli{
+	margin: 0 10px;
+	float: left;
+}
+footer .footer__container2 .footer__image2{
+	margin-top: 15px;
+	width: 100px;
+}
+footer .footer__container2 .footer__image3{
+	height: 55px;
+}
+.footer__container2 .copirihgt{
+	margin-top: 50px;
+}
+
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*.......................................................................................*/
+/*........................responsive...............................................................*/
+@media screen and  (max-width: 480px){
+	header{
+	display: block;
+	width: 100%;
+	height: 75px;
+	}
+	header .logo1{
+	color: #fff;
+	width: 80%;
+	height: 50px;
+	border: none;
+	}
+	header h1{
+	margin-right: 50%;
+	font-size: 35px;
+	}
+	header h1 span{
+	font-size: 35px;
+	}
+	header p{
+	margin: -2% 50% 2% 1%;	
+	}
+	header label{
+	display: block;
+	margin: 0;
+	padding: 13px;
+    text-align: center;
+    position: fixed;
+    width: 20%;
+    height: 75px;
+    top: 0px;
+    right: 0px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    }
+    #check:checked ~ .logo2{
+    height: 100vh;
+	}
+	header .logo2{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	width: 100%;
+	border: none;
+	position: fixed;
+    top: 75px;
+    height: 0;
+    background: rgba(0,0,0,.9);
+    transition: all 500ms cubic-bezier(1,0,0,1);
+    transition-timing-function: cubic-bezier(1,0,0,1);
+    overflow: hidden;
+	}
+	header .logo2 .menu1{
+	position: relative;
+	top: 400px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 45px;
+	overflow: hidden;
+	}
+	header .logo2 .menu1 ul{
+	width: 60%;
+	height: 100%;
+	margin: 0% 20% 0 20%;
+	padding: 0;
+	text-align: center;
+	}
+	header .logo2 .menu1 ul li{
+	margin: auto ;
+	padding: 0;
+	}
+	header .logo2 .menu1 ul li a{
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+	}
+	header .logo2 .menu1 ul li p{
+	display: none;
+	}
+	header .logo2 .menu2{
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	height: auto;
+	border: none;
+	}
+	header .logo2 .menu2 ul{
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	height: auto;
+	}
+	header .logo2 .menu2 ul li{
+	width: 100%;
+	margin:  0;
+	padding: 10px;
+	text-align: center;
+	font-size: 22px;
+	cursor: pointer;
+	}
+	header .logo2 .menu2 ul li a{
+		width: 100%;
+	}
+	header .logo2 .menu2 ul li:hover{
+	background: #b80f22;
+	}
+
+	.header-content h1{
+		font-family: 'Lobster', cursive;
+		font-size: 35px;
+		margin-bottom: 1.5rem;
+	}
+	.header-content p{
+		font-size: 1rem;
+		display: block;
+		padding-bottom: 2rem;
+	}
+	.btn{
+
+		font-size: 1.2rem;
+		padding: 0.5rem 1rem;
+	}
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*..............comieza segundo contenido
+	                                     .................*/
+	.index__contenido1{
+	display: block;
+	}
+	.index__contenido1 .index-cont1{
+
+		width: 100%;
+		height: 50%;
+	}
+	.index__contenido1 .index-cont1 img{
+		margin-top: 0vh;
+		width: 100%;
+		height: 100%;
+		float: right;
+	}
+	.index__contenido1 .index-cont2{ 
+		padding: 1%;
+		width: 100%;
+		height: 50%;
+	}
+	.index__contenido1 .index-cont2 .index__cont2_1{
+		position: absolute;
+		margin : -25% 10% 0 10%;
+		padding: 20px;
+		width: 80%;
+		height: auto;
+	}
+	.index__contenido1 .index-cont2 h1 {
+		font-size: 18px;
+	}
+	.index__contenido1 .index-cont2 .index__cont2_1 a{
+		padding: 5px 40px;
+	}
+	/*.....................................*/
+	.index__contenido2{
+    width: 100%;
+   	height: 100vh;
+   	background: #1A1B1B;
+	}
+	.index__conteiner__img1{
+		width: 100%;
+	   	height: 20%;
+	   	display: flex;
+	}
+	.index__conteiner__img1 .prop-premiun{
+   	height: 20%;
+	}
+	.index__conteiner__img1 .prop-premiun p{
+		padding: 2%;
+		font-size: 33px;
+	}
+	.index__conteiner__img1 img{
+	   display: none;
+	}
+	
+	.index__conteiner__img2{
+	   	height: 80%;
+	   	display: block;
+	}
+	.index__conteiner__img2 .index__cont1{ width: 50%; height: 50%; float: left;}
+	.index__conteiner__img2 .index__cont2{ width: 50%; height: 50%; float: left;}
+	.index__conteiner__img2 .index__cont3{ width: 50%; height: 50%;  float: left;}
+	.index__conteiner__img2 .index__cont4{ width: 50%; height: 50%;  float: left;}
+
+	.index__conteiner__img2 .abc{
+		padding-top: 5%;
+	}
+	.index_contimg{
+		height: 50%;
+	}
+	.index_conttext{
+		padding: 5px;
+		font-size: 14px;
+	}
+	
+	.index__contenido3 .index__mapa1 .locales{
+
+		width: 50%;
+		height: 40%;
+	}
+	.index__contenido3 .index__mapa1 .index_iframe{
+		padding: 13% 0% 13%  0%;
+	}
+	.index__contenido3 .index__mapa2 iframe{
+		width: 100%;
+		height: 38%;
+	}
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*........................nosotros...............................................................*/
+	
+	.slider .slider__section {
+		display: block;
+	}
+	.slider .slider__section .origen{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 30%; 
+	}
+	.slider .slider__section  .origen p{
+		padding-top: 100px;
+		font-size: 40px;
+		color: #fff;
+	}
+	.slider .slider__section  .origentext{
+		margin: 0 auto;
+		width: 75%;
+		max-height: 270px; 
+	}
+	.slider .slider__section  .origentext div{
+		width: 100%;
+		height: 100%;
+		border: none;
+		margin : 0;
+		padding: 4%;
+		box-sizing: border-box;
+	}
+	.slider .slider__section  .origentext div p{
+		letter-spacing: 0px;
+		font-size: 13px;
+	}
+	.slider .slider__section  .origentext div a{
+	padding: 7px 40px;
+	}
+	.btn-prev, .btn-next {
+	  
+	  position: absolute;
+	  top: 50%;
+	  color: #fff;
+	  transform: translateY(-50%);
+	  font-size: 50px;
+	  text-align: center;
+	  font-family: monospace;
+	  cursor: pointer;
+	}
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*..............................................................................
+																					carta
+																					*/
+	.slider-carta{
+		
+		padding-top: 75px;
+		width: 100%;
+		height: 2000px;
+	}
+	.slider-carta .entradas{
+		width: 100%;
+		height: 50px;
+	}
+	.entradas ul{
+		border: none;
+		float: right;
+		width: 100%;
+		height: 100%; 	
+	}
+	.entradas ul li {
+		border: none;
+	}
+	.entradas ul li a{
+	 	font-size: 12px;
+	}
+	/* no entiendo esta clase active ya que no esta definido 
+	en html*/
+	.secciones{
+		width: 100%;
+		height: 100%;
+	}
+
+	.secciones article{
+		margin: auto;
+		width: 90%;
+		height: 90%;
+	}
+	.secciones article div{
+		width: 100%;
+		float: none;
+	}
+	.secciones article div img{
+		margin: -50px 0 0 0;
+		width: 100px;
+		height: 100px;
+
+	}
+	article .seccion1{ background: #1A1B1B; margin-bottom:  70px; }
+	article .seccion2{ background: #1A1B1B; margin-bottom:  70px;}
+	article .seccion3{ background: #1A1B1B; margin-bottom:  70px; } 
+	article .seccion4{ background: #1A1B1B;}
+	
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*........................galeria...............................................................*/
+	.galeria__container{
+		top: 75px;
+		background: #2a2a2a;
+		height: auto;
+	}
+	.galeria__container .video{
+		padding: 10px;
+		display: block;
+	}
+	.galeria__container .video .video01{
+		width: 100%;
+		height: 50%;
+	}
+	.galeria__container .video .video01 iframe{
+		width: 100%;
+		height: 100%;
+	}
+	.galeria__container .video .video02 {
+		padding: 30px 15px;
+		width: 100%;
+		height: 50%;
+	}
+	.galeria__container .video .video02 p {
+		font-size: 16px;
+	}
+	
+	.galeria__container .galeria{
+		padding: 4px;
+	}
+	.galeria__container .galeria li{
+		margin: 2px;
+	}
+	.galeria__container .galeria img{
+		width: 170px;
+		height: 150px;
+	}
+	/*  estilos modal imagenes........................................ */
+	.galeria__container .modal{
+		display: none;
+	}
+	.galeria__container .modal:target{
+		display: block;
+		top: 0px;
+		left: 0;
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0,0,0,.97);
+		z-index: 12;
+		
+	}
+	.galeria__container .modal .imagen{
+		width: 100%;
+		height: 100%;
+	}
+	.galeria__container .modal .imagen .imagen1{
+		width: 100%;
+		height: 10%;
+		display: flex;
+	}
+	.galeria__container .modal .imagen .imagen1 p{
+		padding: 10px;
+		font-size: 15px;
+	}
+	.galeria__container .modal .imagen .imagen2{
+		width: 100%;
+		height: 90%;
+		
+		display: flex;
+		
+	}
+	.galeria__container .modal .imagen .imagen2 a:nth-child(1){
+		position: fixed;
+		top :70%;
+		margin: 0;
+		padding: 0 20px;
+		width: 5%;
+		height: 50px;
+		font-size: 40px;
+	}
+	.galeria__container .modal .imagen .imagen2 a:nth-child(2){
+		margin:0;
+		padding: 0;
+		width: 100%;
+		height: 75%;
+	}
+	.galeria__container .modal .imagen .imagen2 a:nth-child(3){
+		text-align: center;
+		position: fixed;
+		top :70%;
+		right: 20px;
+		margin: 0;
+		padding: 0 ;
+		width: 40px;
+		height: 40px;
+		font-size: 40px;
+	}
+	.galeria__container .modal .imagen .imagen2 img{
+		margin-top: 10%;
+		width: 100%;
+		height: 75%;
+	}
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*........................eventos...............................................................*/
+	.evento{
+	 	padding: 100px 0 0;
+	 	width: 100%;
+	  	height: auto;
+	  	display: block;
+	}
+	.evento  .leftbox{
+		margin-top: 20%;
+	 	width: 100%;
+	  	height: 400px;
+	  	padding: 20px;
+	}
+	.evento  .leftbox .content{
+		padding: 0px 20px 20px 20px;
+		width: 100%;
+		height: auto;
+	}
+	.evento  .leftbox .content .content__img img{
+		margin-top: -75px;
+	 	width: 250px;
+	 	height: 150px;
+	 	border: #fff 2px solid;
+	 	border-radius: 50px 0px 50px 0px;
+	}
+	.evento  .leftbox .content h2{
+		margin: 10px 0;
+		font-size: 20px;
+	}
+	.evento  .leftbox .content p{
+		text-align: none;
+		font-size: 15px;
+	}
+	.evento .contenedor__events{
+		padding: 10px;
+	  	width: 100%;
+	  	height: 850px;
+	  	background: none;
+	}
+	.evento .contenedor__events .events{
+		width: 100%;
+		height: 170px;
+	}
+	.evento .contenedor__events  .events  .time h2{
+	  font-size: 40px;
+	}
+	.evento .contenedor__events  .events  .time span{
+		font-size: 20px;
+	}
+	.evento .contenedor__events  .events  .details h2{
+	  margin: 0;
+	  padding: 0;
+	  font-size: 17px;
+	}
+	.evento .contenedor__events  .events .details p{
+	 text-align: justify;
+	  font-size: 13px;
+	}
+	.evento .contenedor__events  .events .details a{
+	  padding: 2px 10px;
+	  border: 1.5px solid #2a2a2a;
+	}
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*........................contactos...............................................................*/
+	.container__contactos{
+	 height: 700px;
+	}
+	.login-box {
+	  display: block;
+	  width: 85%;
+	  height: 400px;
+	}
+	.login-box .loginbox1{
+	  padding: 10px;
+	  width: 100%;
+	  height: 100%;
+	}
+	.login-box .loginbox1 h1 {
+	  font-size: 18px;
+	}
+
+	.login-box .loginbox1 label {
+	  font-weight: bold;
+	  display: block;
+	  font-size: 13px;
+	}
+
+	.login-box .loginbox1 input {
+	  width: 100%;
+	  margin-bottom: 15px;
+	}
+
+	.login-box .loginbox1 input[type="text"] /* .login-box .loginbox1 input[type="password"]*/ {
+	  font-size: 14px;
+	}
+
+	.login-box .loginbox1 input[type="submit"] {
+	  height: 35px;
+	  font-size: 13px;
+	}
+	.login-box .loginbox2{
+      display: none
+	}
+	
+
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*.......................................................................................*/
+	/*........................footer...............................................................*/
+	footer{
+		width: 100%;
+		height: 600px;
+		background: #1A1B1B;
+	}
+	footer .footer__container1{
+		display: block;
+		height: 50%;
+	}
+	footer .footer__cont__1{
+		text-align: center;
+		width: 100%;
+		height: 30%;
+	}
+	footer .footer__cont__2{
+		text-align: center;
+		width: 100%;
+		height: 40%;
+	}
+	footer .footer__cont__3{
+		text-align: center;
+		width: 100%;
+		height: 30%;
+	}
+	footer .footer__container1  h2{
+		font-size: 15px;
+	}
+	footer .footer__container1  p{
+		font-size: 13px;
+	}
+	.footer__container2{
+		height: 50%;
+		text-align: center;
+		padding-top: 20px;
+	}
+	.footer__container2 p{
+		color: #A6A3A3;
+	}
+	footer .footer__container2 .footer__image1{
+		width: 50px;
+	}
+	.container__image{
+		text-align: center;
+		width: 100%;
+		height: 45%;
+		padding: 0;
+		margin: 0 ;
+	}
+	footer .footer__container2 .container__image .container__imageli{
+		margin: 0 10px;
+		float: none;
+	}
+	footer .footer__container2 .footer__image2{
+		margin-top: 0px;
+		width: 65px;
+	}
+	footer .footer__container2 .footer__image3{
+		height: 45px;
+	}
+	.footer__container2 .copirihgt{
+		margin-top: 0px;
+	}
+}
