@@ -19,7 +19,7 @@
 		    	</div>
 		    	<div class="origentext">
 		    		<div>
-		    			<p>SCOTH ROSARIO y YHAMELI HANCO   fundaron este establecimiento fomentando el consumo de productos orgánicos, lo que dio como resultado una gastronomía dinámica, experimental, entusiasta y consciente a la que definieron como “Nuestro amor, Nuestra cocina peruana”.</p>
+		    			<p>SCOTH ROSARIO SORIANO y ROSMERY ROSARIO SORIANO   fundaron este establecimiento fomentando el consumo de productos orgánicos, lo que dio como resultado una gastronomía dinámica, experimental, entusiasta y consciente a la que definieron como “Nuestro amor, Nuestra cocina peruana”.</p>
 		    			<a href="index.html">MAS DETALLES</a>
 		    		</div>
 		    	</div>
